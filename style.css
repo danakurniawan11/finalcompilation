@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  border:0;
+  padding:0;
+  align-items: center;
+}
+
+a {
+  color: white;
+}
+
+span {
+  max-width: 200px;
+}
+
+div {
+  display: flex;
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+  height: 100vh;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 60px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 100px;
+  color: white;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 60px;
+  padding-left: 200px;
+  padding-right: 50px;
+  color: #686868;
+  justify-content: center;-
+}
+
+div:nth-child(1) {
+  background-image: url("home.jpg");
+  background-size: cover;
+}
+
+div:nth-child(2) {
+  background-image: url("PR1.png");
+  background-size: cover;
+}
+
+div:nth-child(3) {
+  background-image: url("PR2.png");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+div:nth-child(4) {
+  background-image: url("PR3.png");
+  background-size: cover;
+}
+
+.response2 {
+	padding-left: 450px;
+  padding-right: 450px;
+  padding-top: 100px;
+	}
+
+.response3 {
+  width: 100%;
+  height: auto;
+}
+
+/*project 1 buttons*/
+
+.PR1Button {
+	background-color:#bec2c1;
+	border-radius:11px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:17px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2b665e;
+}
+.PR1Button:hover {
+	background-color:#6c7c7c;
+}
+.PR1Button:active {
+	position:relative;
+	top:1px;
+}
+
+/*documentation button */
+
+.PR1DocButton {
+	background-color:#bec2c1;
+	border-radius:11px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:17px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2b665e;
+}
+.PR1DocButton:hover {
+	background-color:#6c7c7c;
+}
+.PR1DocButton:active {
+	position:relative;
+	top:1px;
+}
+
+/*project 2 buttons*/
+
+
+.PR2Button {
+	background-color:#bec2c1;
+	border-radius:11px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:17px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2b665e;
+}
+.PR2Button:hover {
+	background-color:#6c7c7c;
+}
+.PR2Button:active {
+	position:relative;
+	top:1px;
+}
+
+/*documentation button */
+
+.PR2DocButton {
+	background-color:#bec2c1;
+	border-radius:11px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:17px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2b665e;
+}
+.PR2DocButton:hover {
+	background-color:#6c7c7c;
+}
+.PR2DocButton:active {
+	position:relative;
+	top:1px;
+}
+
+/* project 3 buttons */
+
+.PR3Button {
+	background-color:#bec2c1;
+	border-radius:11px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:17px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2b665e;
+}
+.PR3Button:hover {
+	background-color:#6c7c7c;
+}
+.PR3Button:active {
+	position:relative;
+	top:1px;
+}
+
+/*documentation button */
+
+.PR3DocButton {
+	background-color:#bec2c1;
+	border-radius:11px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:17px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2b665e;
+}
+.PR3DocButton:hover {
+	background-color:#6c7c7c;
+}
+.PR3DocButton:active {
+	position:relative;
+	top:1px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}

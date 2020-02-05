@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Part 1</title>
+  <link rel="stylesheet" href="https://use.typekit.net/rnz8vhs.css">
+  <link href="Part1.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+    <a href="Part1.html">Part 1: Code & Data</a>
+
+    <a href="Part2.html">Part 2: Why Java Won</a>
+
+    <a href="Part3.html">Part 3: Systems in Systems</a>
+
+    <a href="Part4.html">Part 4: What Java is today and why it matters</a>
+  </div>
+
+  <div id="Part1">
+    <span style="padding-left:50px;font-size:30px;cursor:pointer" onclick="Part1()">
+    </span>
+  </div>
+  </span>
+  </div>
+
+  <script>
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "300px";
+    document.getElementById("main").style.marginLeft = "300px";
+  }
+
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft= "0";
+    document.body.style.backgroundColor = "#69ADAD";
+  }
+
+  function Part1() {
+    document.getElementById("Part1").style.width = "300px";
+  }
+  </script>
+
+<div class="wrapper">
+  <div id="main">
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;
+    </span>
+  </div>
+
+  <h1>5.1 & 5.2 Code and Data</h1>
+
+  <p><br>
+  <b>What Is the Relationship Between Code and Data?</b></p>
+
+  <p>Data comes from everywhere. Sometimes it comes from third parties—Spotify imports big piles of music files from record labels. Sometimes data is user-created, like e-mails and tweets and Facebook posts and Word documents. Sometimes the machines themselves create data, as with a Fitbit exercise tracker or a Nest thermostat. When you work as a coder, you talk about data all the time. When you create websites, you need to get data out of a database and put them into a Web page. If you’re Twitter, tweets are data. If you’re the IRS, tax returns are data, broken into fields.</p>
+  <p>
+  Data management is the problem that programming is supposed to solve. But of course now that we have computers everywhere, we keep generating more data, which requires more programming, and so forth. It’s a hell of a problem with no end in sight. This is why people in technology make so much money. Not only do they sell infinitely reproducible nothings, but they sell so many of them that they actually have to come up with new categories of infinitely reproducible nothings just to handle what happened with the last batch. That’s how we ended up with “big data.” I’ve been to big-data conferences and they are packed.</p>
+
+  <p><br><b>Where does this data live?</b></p>
+  <p>
+  It’s rare that a large task is ever very far from a database. Amazon, Google, Yahoo!, Netflix, Spotify—all have huge, powerful databases.
+
+  The most prevalent is the relational database, using a language called SQL, for Structured Query Language. Relational databases represent the world using tables, which have rows and columns. SQL looks like this:</p>
+
+  <img src="SQL.png" alt="SQL" width="1350" height="50" class="center">
+
+  <p>Implying that there’s a table called BOOKS and a row in that table, where a book resides with an ID of 294. IDs are important in databases. Imagine a bookstore database. It has a customer table that lists customers. It has a books table that lists books. And it has a clever in-between table of purchases with a row for every time a customer bought a book.</p>
+
+  <p>Congratulations! You just built Amazon! Of course, while we were trying to build a bookstore, we actually built the death of bookstores—that seems to happen a lot in the business. You set out to do something cool and end up destroying lots of things that came before.</p>
+
+  <p>Relational databases showed up in the 1970s and never left. There’s Oracle, of course. Microsoft has SQL Server; IBM has DB2. They all speak SQL and work in a similar manner, with just enough differences to make it costly to switch.</p>
+
+  <p>Oracle makes you pay thousands of dollars to use its commercial enterprise database, but more and more of the world runs on free software databases such as PostgreSQL and MySQL. There’s even a tiny little database called SQLite that’s so small, so well-behaved, and so permissively licensed that it’s now in basically every smartphone, available to apps to help them save and load data. You probably have a powerful SQL-driven database in your pocket right now.</p>
+  <br>
+</div>
+
+</body>
+</html>

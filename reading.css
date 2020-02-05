@@ -1,0 +1,40 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+}
+
+.formatting {
+  max-width: 900px;
+  margin: auto
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  line-height: 2;
+  margin: auto;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 50px;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+}
+
+.readingResponse {
+  max-width: 900px;
+  margin: auto
+}
+
+img {
+	max-width: 100%;
+	}

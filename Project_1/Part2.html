@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Part 2</title>
+  <link rel="stylesheet" href="https://use.typekit.net/rnz8vhs.css">
+  <link href="Part1.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+      <a href="Part1.html">Part 1: Code & Data</a>
+
+      <a href="Part2.html">Part 2: Why Java Won</a>
+
+      <a href="Part3.html">Part 3: Systems in Systems</a>
+
+      <a href="Part4.html">Part 4: What Java is today and why it matters</a>
+    </div>
+
+    <div id="Part1">
+      <span style="padding-left:50px;font-size:30px;cursor:pointer" onclick="Part1()">
+      </span>
+    </div>
+
+    <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "300px";
+      document.getElementById("main").style.marginLeft = "300px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("main").style.marginLeft= "0";
+      document.body.style.backgroundColor = "#69ADAD";
+    }
+
+    function Part1() {
+      document.getElementById("Part1").style.width = "300px";
+    }</script>
+
+  <div class="wrapper">
+
+    <div id="main">
+      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;
+      </span>
+      </div>
+
+  <h1>5.3 & 5.4 Why Java Won</h1>
+
+  <p>If you walk up to some programmers and say, “Big corporate programming,” they’ll think of Java. Go to any of the popular coding job sites, such as dice.com, and search for openings in New York City—almost 2,000 results for Java on a recent search; 1,195 for JavaScript; 930 for Python; 344 for Ruby. Only two for Lisp.</p>
+
+  <p>Java is a programming language that was born at Sun Microsystems (R.I.P.), the product of a team led by a well-regarded programmer named James Gosling. It’s object-oriented, but it also looks a lot like C and C++, so for people who understood those languages, it was fairly easy to pick up. It was conceived in 1991, eventually floating onto the Internet on a massive cloud of marketing in 1995, proclaimed as the answer to every woe that had ever beset programmers.</p>
+
+  <p>Java ran on every computer! Java would run right inside your Web browser, in “applets” (soon called “crapplets”), and would probably take over the Web in time. Java! It ran very slowly compared with more traditional languages such as C. What was it for? Java! They also had network-connected computer terminals called JavaStations. Java! Kleiner Perkins Caufield & Byers even announced a $100 million Java fund in 1996. But after all that excitement, Java sort of … hung out for a while. The future didn’t look like Sun said it would.</p>
+
+  <p>Java running “inside” a Web browser, as a plug-in, never worked well. It was slow and clunky, and when it loaded it felt like you were teetering on the edge of disaster, a paranoia that was frequently validated when your browser froze up and crashed. Java-enabled jewelry, meant to serve as a kind of digital key/credit card/ID card, also had a low success rate. But Java was free to download and designed to be useful for small and large teams alike.</p>
+
+<p>Here are some facts about Java to help you understand how it slowly took over the world by the sheer power of being pretty good.</p>
+
+<h2>It was a big language.</h2>
+
+<p>It came with a ton of code already there, the “class library,” which had all the classes and methods you’d need to talk to a database, deal with complex documents, do mathematics, and talk to various network services. There were a ton of classes in that library waiting to be turned into objects and brought to life.
+</p>
+
+<h2>It automatically generated documentation.</h2>
+
+<p>This was huge. Everyone says code deserves excellent documentation and documentation truly matters, but this is a principle mostly proven in the breach. Now you could run a tool called javadoc, and it would make you Web pages that listed all the classes and methods. It was lousy documentation, but better than nothing and pretty easy to enhance if you took the time to clean up your code.</p>
+
+<p>There were a lot of Java manuals, workshops and training seminars, and certifications. Programmers can take classes and tests to be officially certified in many technologies. Java programmers had an especially wide range to choose from.</p>
+
+<img src="java.jpg" alt="winner">
+
+<h2>It ran on a “virtual” machine,</h2>
+
+  <p>which meant that Java “ran everywhere,” which meant that you could run it on Windows, Mac, or Unix machines and it would behave the same. It was an exceptionally well-engineered compromise. Which made it perfect for big companies. As the 2000s kept going, Java became more popular for application servers. Creating a content management system for a nongovernmental organization with 2,000 employees? Java’s fine. Connecting tens of thousands of people in a company to one another? Java. Need to help one bank talk to another bank every day at 5:01 p.m.? Java. Charts and diagrams, big stacks of paper, five-year projects? Java. Not exciting, hardly wearable, but very predictable. A language for building great big things for great big places with great big teams.</p>
+
+<p>People complain, but it works.</p>
+<br>
+<p style="text-align: center;">+++</p>
+<br>
+
+<h2>Briefly on the Huge Subject of Microsoft</h2>
+
+  <p>Of course if you are Microsoft, this is intolerable. You can’t have some other company creeping into your banks and enterprises with this dumb language. You can’t have people choosing to run stuff on a virtual machine when they should be running it on Windows machines, as God and Bill Gates intended.</p>
+
+  <p>Don’t ever count Microsoft out. Its great corporate skill has always been to take the sheer weirdness of computer ideas and translate them for corporations, in the language of Global Business Leadership. Whatever is discussed in this issue, Microsoft offers at least one of it. Statically typed, scripting, data-driven, functional—name your ambiguous adjective, and Microsoft will sell something that delivers that to you, and you can write Windows code in it and live a Windows life. And this is not disparagement; Microsoft products can be as good as or better than anything else on the market.</p><br>
+  </div>
+</body>
+
+</html>
+
+<style>
+body {
+  background-color: #F1D73B;
+  margin: 0px;
+}
+
+img {
+  float: right;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+}
+
+h1 {
+  font: 70px "ff-tisa-sans-web-pro", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: #262525;
+  text-align: left;
+}
+
+h2 {
+  font: 30px "ff-tisa-sans-web-pro", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: #F69EA2;
+  text-align: left;
+}
+
+p {
+  font: 20px "ff-tisa-sans-web-pro", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #3F4D40;
+  text-align: left;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+</style>
